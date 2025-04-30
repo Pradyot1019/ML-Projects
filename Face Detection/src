@@ -1,0 +1,7 @@
+This Python script uses OpenCV to detect faces in images. It provides two options for the user:
+
+Capture a photo using the webcam: The script captures an image from the webcam, processes it, and detects any faces using a Haar Cascade classifier.
+
+Upload a photo from your device: The user can upload an image from their device, and the script will process it for face detection.
+
+The script performs several steps like converting images to grayscale, equalizing the histogram, and applying Gaussian blur to improve face detection. Detected faces are highlighted with red rectangles. Errors are handled with appropriate messages for issues such as invalid file paths or OpenCV problems.
