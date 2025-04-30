@@ -1,0 +1,15 @@
+This Python script uses linear regression to predict startup profits based on factors like R&D spend, administration costs, marketing spend, and the state. Here's a brief summary:
+
+Data Preprocessing: Loads the dataset and encodes the categorical "State" column (New York, California, Florida) using one-hot encoding.
+
+Train-Test Split: Splits the data into training and testing sets (80%/20%).
+
+Model Training: A linear regression model is trained to predict profits from the input features.
+
+Prediction and Evaluation: The model predicts profits for the test set, and results are compared with actual values.
+
+State Profit Prediction: Predicts profits for startups in New York, California, and Florida based on given spending values.
+
+Highest Profit State: Identifies and displays the state with the highest predicted profit.
+
+The script demonstrates using linear regression for profit prediction with a focus on categorical variables and spending factors.
