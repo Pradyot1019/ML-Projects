@@ -1,0 +1,29 @@
+This Python script builds a neural network to predict customer churn using TensorFlow.
+
+Data Preprocessing:
+
+The dataset (Churn_Modelling.csv) is loaded, and the independent variables (X) and target variable (y) are separated.
+
+Categorical variables (Gender, Geography) are encoded using LabelEncoder and OneHotEncoder.
+
+Data Splitting and Scaling:
+
+The data is split into training and testing sets (80%/20%).
+
+Features are standardized using StandardScaler.
+
+Model Building:
+
+A neural network with two hidden layers (6 units each, ReLU activation) and an output layer (sigmoid activation) is created.
+
+Training and Evaluation:
+
+The model is trained for 100 epochs, then predictions are made on the test set.
+
+Accuracy and the confusion matrix are printed to evaluate the model.
+
+New Customer Prediction:
+
+The model predicts whether a new customer will stay or leave based on preprocessed input data.
+
+In summary, the script preprocesses the data, builds and trains a neural network, evaluates its performance, and makes predictions for new customers.
